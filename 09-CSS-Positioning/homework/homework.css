@@ -7,32 +7,70 @@ archivo en cualquiera de estas carpetas, estás en el lugar equivocado.
 
 /* Arrancaremos este ejercicio por vos: */
 #ejercicioUno {
-
+    text-align: center;
 }
 
 
 /* Ejercicio 2: Posicionar el header */
 
-/* Acá va tu código */
+header {
+  /* Establece la posición como relativa para permitir el posicionamiento absoluto de elementos internos */
+  position: relative;
+  /* Alinea el texto en el centro horizontalmente */
+  text-align: center;
+  /* Establece el fondo y el color del texto según tus preferencias */
+  background-color: #333;
+  color: white;
+  /* Define el alto del encabezado */
+  height: 100px;
+}
+#ejercicioDos {
+    display: none;
+  }  
+
+/* Ejercicio 3: Posicionar la imagen dentro de la caja roja */
+#ejercicioTres {
+    position: absolute;
+    top: 100px; /* Alinea la parte superior de la imagen a 100 píxeles desde el margen superior */
+    left: 200px; /* Alinea la izquierda de la imagen a 200 píxeles desde el margen izquierdo */
+  }
+  
+
+/* Ejercicio 4: Hacer que la caja esté fija en la esquina superior izquierda */
+#ejercicioCuatro {
+    position: fixed;
+    top: 0;
+    left: 0;
+  }
 
 
-
-/* Ejercicio 3: */
-
-/* Acá va tu código */
-
-
-
-/* Ejercicio 4: */
-
-/* Acá va tu código */
+/* Ejercicio 5: Configurar el contenedor como Flexbox */
+#ejercicioCinco {
+    display: flex; /* Establece el contenedor como un contenedor Flexbox */
+    justify-content: space-between; /* Distribuye los elementos de manera proporcional */
+    align-items: center; /* Centra verticalmente los elementos */
+  }
 
 
-
-/* Ejercicio 5: */
-
-/* Acá va tu código */
-
-
-
-/* Ejercicio 6. */
+/* Ejercicio 6: Cambiar la dirección de los elementos */
+#ejercicioCinco {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row; /* Establece la dirección de los elementos en una fila de izquierda a derecha */
+  }
+  
+/* Ejemplo de uso de las propiedades de Flexbox en el contenedor */
+#ejercicioSiete {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row-reverse;
+  }
+  
+  /* Ejemplo de uso de align-self en un elemento individual */
+  #elemento1 {
+    align-self: flex-start;
+  }
+  
+  
