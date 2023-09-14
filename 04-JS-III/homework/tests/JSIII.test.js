@@ -139,7 +139,7 @@ describe('diaDeLaSemana(numeroDeDia)', function() {
   });
 });
 
-describe('empiezaConNueve(n))', function() {
+describe('empiezaConNueve(n)', function() {
   it('should return true or false in case the received number starts with nine', function() {
     expect(empiezaConNueve(98)).toBe(true);
     expect(empiezaConNueve(9)).toBe(true);
