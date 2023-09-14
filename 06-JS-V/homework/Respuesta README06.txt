@@ -1,0 +1,3 @@
+* `prototype`: Es un deposito para funciones (metodos) a los que podemos acceder despues desde diversos objetos, y asi no necesitar escribir esta funcion en cada objeto en el que necesitemos usarla, ahorrandonos memoria del sistema.
+
+* _Constructors_ (de Clases): funcional para crear ususarios de sitios web, comparte similitudes con los objetos combencionales, pero éste nos permite crear muchos objetos que comparten las mismas propiedades.

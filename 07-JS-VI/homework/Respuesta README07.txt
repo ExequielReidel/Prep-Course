@@ -1,0 +1,1 @@
+* Funciones Callback: se llama asi a la funcion que es pasada como agumento a otra funcion. 

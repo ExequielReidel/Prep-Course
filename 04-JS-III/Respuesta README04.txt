@@ -1,0 +1,1 @@
+* Arrays: simitar a una carpeta en la que podemos guardar todos los tipos de datos y cuanto necesitemos, a los cuales luego se puede acceder y manipular a gusta.
